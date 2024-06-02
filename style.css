@@ -1,39 +1,77 @@
+
 body{
-    background-image: url(F.jpg);
+     background-image: url(../image/F.jpg);     
 }
 .f{
     height: 80%;
     width: 80%;
     margin: auto;
-position: relative;
-display: flex;
-justify-content: space-between;
-top: 80px;
-}
-
-
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 80px;
+    }
 .t{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     display: inline;
     border-radius: 20px;
-    height: 100%;
+    height: 70%;
     width: 22%;
     box-shadow: 2px 2px 2px rgb(0, 0, 0), -2px -2px 4px gainsboro;
-
-}
-.t:hover{
-    height: 90%;
-    width: 24%;
 }
 
-
+ .t:hover{
+     
+   transform: scale(1.1,1.05);
+} 
 .h2{
-    text-align: center;
+    text-align: center; 
 }
 .photo{
     width: 100%;
     height: 50%;
     border-radius: 20px 20px 0px 0px ;
-
 }
-
+.div1{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+@media(max-width:770px){
+    .f{
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 80px;
+        flex-wrap: wrap;
+        }
+        .tt{
+            margin-top: 25px;
+        }
+    .t{
+        background-color: rgb(255, 255, 255);
+        display: inline;
+        border-radius: 20px;
+        height: 70%;
+        width: 42%;
+        box-shadow: 2px 2px 2px rgb(0, 0, 0), -2px -2px 4px gainsboro;
+    }
+ 
+    .h2{
+        text-align: center;
+        
+    }
+    .photo{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px 20px 0px 0px ;
+    
+    }
+    .div1{
+        background-color: rgb(255, 255, 255);
+        margin-top: 0%;
+        margin: auto;
+    }
+}
